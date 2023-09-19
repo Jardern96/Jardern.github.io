@@ -1,10 +1,86 @@
-!DOCTYPE html
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <h1>Joseph Ardern</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <nav></nav>
+        <h1>HTML tables cheat sheet</h1>
+    </header>
+    <main>
+        <div class= "openingStatement">
+            <h2>Below is a table defining the key attributes and elements required to create a table using HTML</h2>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Element or attribute name</th>
+                        <th scope="col">Formatted tag</th>
+                        <th scope="col">Functionality of the element</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Table</td>
+                        <td class= "tag">&lt;table&gt;</td>
+                        <td class="description">Contains all tabular data</td>
+                    </tr>
+                    <tr>
+                        <td>Table Row</td>
+                        <td class= "tag">&lt;tr&gt;</td>
+                        <td class="description">Defines a new row</td>
+                    </tr>
+                    <tr>
+                        <td>Table Heading</td>
+                        <td class= "tag">&lt;th&gt;</td>
+                        <td class="description">Defines a new heading</td>
+                    </tr>
+                    <tr>
+                        <td>Scope</td>
+                        <td class= "tag">scope = "col/row"</td>
+                        <td class="description">Attribute determining if <span class= "tag">&lt;th&gt;</span> is of row or column</td>
+                    </tr>
+                    <tr>
+                        <td>Table Data</td>
+                        <td class= "tag">&lt;td&gt;</td>
+                        <td class="description">Contains all tabular data</td>
+                    </tr>
+                    <tr>
+                        <td>Table Header</td>
+                        <td class= "tag">&lt;thead&gt;</td>
+                        <td class="description">Contains the column headings</td>
+                    </tr>
+                    <tr>
+                        <td>Table Body</td>
+                        <td class= "tag">&lt;tbody&gt;</td>
+                        <td class="description">Contains all data excluding column headings</td>
+                    </tr>
+                    <tr>
+                        <td>Table Footer</td>
+                        <td class= "tag">&lt;tfoot&gt;</td>
+                        <td class="description">Contains the bottom of the table, e.g. totals</td>
+                    </tr>
+                    <tr>
+                        <td>Column span</td>
+                        <td class= "tag">colspan = (#)</td>
+                        <td class="description">Attribute determining how many columns the data will show on</td>
+                    </tr>
+                    <tr>
+                        <td>Row Span</td>
+                        <td class= "tag">rowspan = (#)</td>
+                        <td class="description">Attribute determining how many rows the data will show on</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>Created by Joseph Ardern 19/09/23</p>
+    </footer>
 </body>
-
 </html>
